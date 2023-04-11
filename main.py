@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+pip install sklearn
 import sklearn
 from sklearn.naive_bayes import GaussianNB
 from sklearn.linear_model import LogisticRegression
