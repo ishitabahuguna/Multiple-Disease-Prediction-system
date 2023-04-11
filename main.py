@@ -1,5 +1,7 @@
 import numpy as np
 import pandas as pd
+install pip
+pip install requests
 pip install sklearn
 import sklearn
 from sklearn.naive_bayes import GaussianNB
