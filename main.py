@@ -1,22 +1,3 @@
-import numpy as np
-import pandas as pd
-import sklearn
-from sklearn.naive_bayes import GaussianNB
-from sklearn.linear_model import LogisticRegression
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.model_selection import train_test_split, cross_val_score, cross_val_predict
-from sklearn import metrics
-from sklearn.preprocessing import StandardScaler
-from sklearn.metrics import accuracy_score
-from sklearn.model_selection import train_test_split
-from sklearn import svm
-data1=pd.read_csv('diabetes.csv')
-data1.head()
-
-
-
-
-
 import pickle
 import streamlit as st
 
